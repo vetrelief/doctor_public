@@ -54,30 +54,6 @@ ul {
 }
 
 
-/* #topbar .contact-info a {
-    line-height: 1;
-    color: #444444;
-    transition: 0.3s;
-}
-
-#topbar .contact-info a:hover {
-    color: #1977cc;
-} 
-
-#topbar .contact-info i {
-    color: #ff8522;
-    border: solid 1px #000000;
-    padding: 6px;
-    border-radius: 20px;
-    margin-left: 15px;
-    line-height: 0;
-    margin-right: 5px;
-}
-
-#topbar .contact-info i:first-child {
-    margin-left: 0;
-}*/
-
 #topbar .contact-info h6 {
     color: #ffffff;
     padding: 0;
@@ -102,11 +78,6 @@ ul {
         margin-right: 6px;
     }
 }
-
-
-/* #topbar .social-links a:first-child {
-    border-left: 0;
-  } */
 
 
 /*--------------------------------------------------------------
@@ -149,57 +120,11 @@ ul {
   * Appointment Button *
   */
 
-.login-btn {
-    margin-left: 25px !important;
-    background: #329EFF !important;
-    color: #fff !important;
-    border-radius: 50px;
-    padding: 8px 25px !important;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px !important;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 500;
-    box-shadow: 0px 2px 5px 2px #bbbbbb4f;
-}
-
-.signup-btn {
-    margin-left: 10px !important;
-    background: #ffffff !important;
-    color: #329EFF !important;
-    border-radius: 50px;
-    padding: 8px 25px !important;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px !important;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 500;
-    box-shadow: 0px 2px 5px 2px #bbbbbb4f;
-}
-
-.login-btn:hover {
-    background: #ffffff !important;
-    color: #329EFF !important;
-}
-
-.signup-btn:hover {
-    background: #329EFF!important;
-    color: #ffffff !important;
-}
 .blue-heading{
     color: #329eff;
 }
 
-@media (max-width: 768px) {
-    .login-btn,
-    .signup-btn {
-        margin: 0 7px 0 15px;
-        padding: 6px 9px;
-        font-size: 11px;
-    }
-}
+
 
 
 /*--------------------------------------------------------------
@@ -242,7 +167,6 @@ ul {
     color: #000000;
     white-space: nowrap;
     transition: 0.3s;
-    /* border-bottom: 2px solid #fff; */
     padding: 3px 16px 0px 0px;
 }
 
@@ -251,22 +175,6 @@ ul {
     justify-content: flex-end;
 }
 
-
-/*.navbar a i,
-.navbar a:focus i {
-    font-size: 12px;
-    line-height: 0;
-    margin-left: 5px;
-} */
-
-
-/* .navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-    color: #ff8522;
-    border-color: #ff8522;
-} */
 
 .navbar .dropdown ul {
     display: block;
@@ -500,29 +408,6 @@ section {
     color: #89cc90;
 }
 
-
-/* .section-title h2::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: #ddd;
-    bottom: 1px;
-    left: calc(50% - 60px);
-  }
-  
-  .section-title h2::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: #ff8522;
-    bottom: 0;
-    left: calc(50% - 20px);
-  } */
-
 .section-title h2 span {
     background: #252525;
     color: #ffffff;
@@ -536,81 +421,12 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-
-.breadcrumbs {
-    padding: 20px 0;
-    background-color: rgb(255 133 34 / 28%);
-    min-height: 40px;
-    margin-top: 120px;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs {
-        margin-top: 100px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 24px;
-    font-weight: 300;
-    margin: 0;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs h2 {
-        margin: 0 0 10px 0;
-    }
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #6c757d;
-    content: "/";
-}
-
-@media (max-width: 768px) {
-    .breadcrumbs .d-flex {
-        display: block !important;
-    }
-    .breadcrumbs ol {
-        display: block;
-    }
-    .breadcrumbs ol li {
-        display: inline-block;
-    }
-}
-
-
 #petVideoAutoPlay{
     max-height: 80vh;
 }
 @media (max-width: 768px) {
     .copyright-text {
         text-align: center;
-    }
-    .about-us img {
-        width: 100%;
-        margin: 0 0 32px 0;
-    }
-    .contact-btn {
-        flex-direction: column;
     }
 }
 
@@ -649,29 +465,6 @@ section {
     font-size: 18px;
 }
 
-.appointment-form {
-    padding: 20px 38px;
-    border-top: 2px solid #1c1c1c;
-    background-color: #ffffff;
-    box-shadow: 1px 3px 5px 1px #c1c1c175;
-    border-radius: 10px;
-}
-
-.appointment-form h3 {
-    font-size: 29px;
-    font-weight: 700;
-    text-align: center;
-    margin: 10px 0;
-    color: #89CC90;
-}
-
-.appointment-form-btn {
-    display: flex;
-    justify-content: center;
-}
-.login-btn.scrollto.text-yellow{
-    color: #e7ed20 !important;
-}
 
 /*--------------------------------------------------------------
 # Put Reviews From Pet Owners
