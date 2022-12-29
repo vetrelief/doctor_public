@@ -816,4 +816,7 @@ section {
     .d-profile-main{
         padding: 20px 20px 20px 20px;
     }
+    .pr-custom-0{
+        padding-right: 0;
+    }
 }
