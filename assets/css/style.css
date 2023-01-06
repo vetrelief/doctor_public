@@ -716,7 +716,7 @@ section {
     border-radius: 10px;
 }
 .doctor-public-slider{
-    background-image: url('../img/pet.jpg');
+    background-image: url('../img/doggy_heaven_full.jpeg');
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -730,7 +730,7 @@ section {
     height: 100%;
     width: 100%;
     background-color: #000;
-    opacity: 0.5;
+    opacity: 0.65;
     position: absolute;
     left: 0;
     top:0;
@@ -742,6 +742,13 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+}
+.slider-text-section h1{
+    font-size: 3.5rem;
+}
+.slider-text-section p{
+    font-size: 1.3rem;
 }
 .doctor-profile-card{
     border-radius: 10px;
@@ -802,13 +809,27 @@ section {
 .doctor-profile-social-icons a i{
     margin-top: 2px;
 }
+.slider-text-section-img{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 30%;
+    transform: rotate(35deg) translateY(-70%);
+}
+#carouselDoctorSlider .carousel-indicators {
+    bottom: 80px !important;
+}
+#carouselDoctorSlider .carousel-indicators .active {
+    background-color: #fff;
+    opacity: 1;
+}
 
 @media screen and (max-width:767px) {
     .doctor-public-slider,.slider-text-section{
         min-height: unset;
     }
     .doctor-profile-card{
-        margin-top: -100px;
+        margin-top: -80px;
     }
     .doctor-profile-social-icons a i{
         margin-top: 0;
@@ -818,5 +839,23 @@ section {
     }
     .pr-custom-0{
         padding-right: 0;
+    }
+    .slider-text-section-img{
+        position: absolute;
+        width: 150px;
+        right: 0;
+        top: 30%;
+        transform: rotate(35deg) translateY(-70%);
+    }
+    .slider-text-section h1{
+        font-size: 1.5rem;
+        max-width: 80%;
+        margin-top: 2rem;
+    }
+    .slider-text-section p{
+        font-size: unset;
+    }
+    #carouselDoctorSlider .carousel-indicators {
+        bottom: 20px !important;
     }
 }
